@@ -33,11 +33,15 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col cols="6">
-                <v-btn color="amber-darken-4"> Takeout Menu </v-btn>
+              <v-col cols="12" sm="6">
+                <div class="d-flex justify-center">
+                  <v-btn color="amber-darken-4"> Takeout Menu </v-btn>
+                </div>
               </v-col>
-              <v-col cols="6">
-                <v-btn color="amber-darken-4"> Delivery Menu </v-btn>
+              <v-col cols="12" sm="6">
+                <div class="d-flex justify-center">
+                  <v-btn color="amber-darken-4"> Delivery Menu </v-btn>
+                </div>
               </v-col>
             </v-row>
           </v-container>

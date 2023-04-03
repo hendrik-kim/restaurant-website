@@ -31,7 +31,7 @@
     </v-row>
     <v-row>
       <v-container>
-        <div class="d-flex justify-center" style="width: 500px; margin: auto">
+        <div class="d-flex justify-center" style="margin: auto">
           <v-img src="../assets/order_img.webp"></v-img>
         </div>
       </v-container>
