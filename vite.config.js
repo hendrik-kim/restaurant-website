@@ -8,6 +8,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/restaurant-website/',
   plugins: [
     vue({
       template: { transformAssetUrls }
@@ -37,6 +38,5 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-  },
-  base: '/',
+  }
 })
